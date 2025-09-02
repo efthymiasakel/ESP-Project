@@ -1,0 +1,84 @@
+.dashboard {
+  padding: 30px;
+  text-align: center;
+}
+
+.dashboard h1 {
+  margin-bottom: 10px;
+}
+
+.dashboard p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.card {
+  margin: 25px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  background-color: #fff;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: normal;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+/* Base style for all buttons */
+.btn {
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+/* Primary (Export CSV) */
+.btn-primary {
+  background-color: #eaf3fc;   /* απαλή μπλε απόχρωση */
+  color: #2c6ed5;
+  border: 1px solid #2c6ed5;
+}
+.btn-primary:hover {
+  background-color: #d0e5fa;
+}
+
+/* Secondary (Edit, Copy Link) */
+.btn-secondary {
+  background-color: #f9f9f9;
+  color: #333;
+  border: 1px solid #ccc;
+}
+.btn-secondary:hover {
+  background-color: #f0f0f0;
+}
+
+/* Danger (Delete) */
+.btn-danger {
+  background-color: #fdecea;   /* απαλή κόκκινη απόχρωση */
+  color: #c62828;
+  border: 1px solid #c62828;
+}
+.btn-danger:hover {
+  background-color: #f8d7da;
+}
+
+
+
+
