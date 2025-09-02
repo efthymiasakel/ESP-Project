@@ -80,7 +80,10 @@ npm run dev
 ```
 
  Frontend runs on: [http://localhost:5173](http://localhost:5173)  
-  Backend runs on: [http://localhost:5000](http://localhost:5000)  
+ Backend runs on: [http://localhost:5000](http://localhost:5000)  
+
+*(These addresses work locally after starting the servers.  
+They are not public links.)*
 
 ---
 
@@ -90,6 +93,18 @@ npm run dev
 3. **Copy the experiment link** from the Dashboard and share it with participants.  
 4. **Participants run the experiment anonymously** and their responses are stored.  
 5. **Researcher can view live participants count** and export CSV results.  
+
+---
+
+## Build & Deploy 
+
+Although this project was developed for academic/educational purposes, the following steps show how it could be built and deployed:
+
+- **Frontend**: run `npm run build` inside `esp-app` → generates the `dist/` folder.  
+  The `dist/` folder can then be deployed to services such as **Netlify**, **Vercel**, or **GitHub Pages**.
+
+- **Backend**: in production it can run with `npm start` (if configured), and can be deployed to platforms like **Heroku** or **Render**, with MongoDB Atlas as the database.
+
 
 ---
 
